@@ -16,7 +16,7 @@ on:
       - "firmware/prototyper/**"
       - "firmware/runtime/**"
   push:
-    branches: ["main"]
+    branches: ["main", "ci/rcore-tutorial-boot"]  # 添加你的测试分支
     paths:
       - ".cargo/**"
       - ".github/scripts/prototyper-rcore-tutorial-boot.sh"
